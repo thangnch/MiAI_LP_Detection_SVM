@@ -1,4 +1,4 @@
-import pytesseract
+
 import cv2
 import numpy as np
 from lib_detection import load_model, detect_lp, im2single
@@ -116,20 +116,6 @@ if (len(LpImg)):
     print("Bien so=", plate_info)
     cv2.imshow("Hinh anh output",Ivehicle)
     cv2.waitKey()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
