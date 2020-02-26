@@ -99,7 +99,7 @@ if (len(LpImg)):
                 result = model_svm.predict(curr_num)[1]
                 result = int(result[0, 0])
 
-                if result<9: # Neu la so thi hien thi luon
+                if result<=9: # Neu la so thi hien thi luon
                     result = str(result)
                 else: #Neu la chu thi chuyen bang ASCII
                     result = chr(result)
